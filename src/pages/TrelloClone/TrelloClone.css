@@ -1,0 +1,222 @@
+.btn {
+  border: 1px solid black;
+  font-weight: 700;
+  border-radius: 5px;
+  padding: 10px;
+  margin: auto;
+  background-color: lightgray;
+}
+
+.btn:hover {
+  background-color: gray;
+}
+
+.flex {
+  display: flex;
+}
+
+.navbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 0 24px;
+  background-color: dimgray;
+
+  border-bottom: 1px solid lightgray;
+}
+
+.user-menu ul li a,
+.main-menu ul li a {
+  color: black;
+  font-weight: 700;
+}
+
+.user-menu ul li a:hover,
+.main-menu ul li a:hover {
+  text-decoration: underline;
+}
+
+.user-menu ul li {
+  display: inline;
+  margin-left: 12px;
+}
+
+.columns-bg {
+  padding: 70px 40px;
+  margin: 10px 20px;
+  background-color: var(--orange);
+  border: 1px solid var(--black);
+  box-shadow: var(--boxShadow);
+  border-radius: 20px;
+  height: auto;
+  text-align: center;
+  font-weight: bold;
+}
+
+.add-column-btn {
+  padding: 70px 40px;
+  margin: 10px 20px;
+  background-color: none;
+  border: 4px dashed var(--black);
+  border-radius: 20px;
+  height: auto;
+  text-align: center;
+}
+
+.add-column-btn:hover {
+  cursor: pointer;
+}
+
+.circles-bg {
+  padding: 80px;
+  margin: 10px 20px;
+  background-color: red;
+  border: 1px solid darkred;
+  border-radius: 100%;
+}
+
+.option-bg {
+  padding: 15px 40px;
+  margin: 7px auto;
+  background-color: white;
+  border: 1px solid black;
+  border-radius: 7px;
+  text-align: center;
+  height: 20px;
+  width: 70px;
+}
+
+.columns-textarea {
+  resize: none;
+  display: block;
+  border-radius: 10px;
+  padding: 20px;
+  margin: 7px;
+}
+
+.option-bg:hover {
+  cursor: pointer;
+}
+
+.columns-btn {
+  background: none;
+  padding: 10px;
+  background-color: white;
+  border: 2px solid black;
+  border-radius: 5px;
+  transition: 0.3s;
+  margin-top: 10px;
+}
+
+.columns-btn:hover {
+  cursor: pointer;
+  padding: 13px;
+}
+
+.flex {
+  display: flex;
+}
+
+.block {
+  display: block;
+}
+
+.modalScreen {
+  padding: 100px 25%;
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  margin: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 2;
+}
+
+.modalBox{
+  padding: 15px;
+  width: 50%;
+  background-color: white;
+  box-shadow: 5px 5px 5px 5px black;
+}
+
+.blur-in {
+  animation: blur 0.1s forwards;
+}
+@keyframes blur {
+  0% {
+    filter: blur(0px) brightness(100%);
+  }
+  100% {
+    filter: blur(3px) brightness(80%);
+    background-color: rgba(0, 0, 0, 0.3);
+  }
+}
+
+.modal-context {
+  font-size: 16px;
+  padding: 10px;
+}
+
+.close-modal {
+  float: right;
+  font-size: 25px;
+  font-weight: 700;
+  margin-top: -35px;
+  transition: 0.2s;
+}
+
+.close-modal:hover {
+  font-size: 27px;
+  font-weight: 800;;
+  cursor: pointer;
+}
+
+.allowHide span {
+  padding: 3px;
+  /* margin-left: auto;
+  margin-right: 0; */
+}
+
+.allowHide span:hover {
+  cursor: pointer;
+}
+
+.hidden {
+  display: none;
+}
+
+/* .modal {
+  display: none;
+  position: fixed; 
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%; 
+  height: 100%;
+  overflow: auto;
+  background-color: rgb(0,0,0);
+  background-color: rgba(0,0,0,0.4);
+}
+
+.modal-content {
+  background-color: #fefefe;
+  margin: 15% auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%; 
+}
+
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+} */
